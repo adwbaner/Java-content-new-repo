@@ -1,0 +1,5 @@
+select * from DEPARTMENT_MASTER;
+delete from DEPARTMENT_MASTER where dept_code in(70,80);
+insert into DEPARTMENT_MASTER values(90,"Machine");
+
+	insert into department_master values(70,"bio");
